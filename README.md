@@ -1,4 +1,5 @@
 Title: Scrapping news about difference cryptocurrency from coinmarketcap.com
+
 Usage/Example:
 from coinmarketcap_scrapper import coinmarketcap
 
