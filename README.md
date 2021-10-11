@@ -1,9 +1,11 @@
 Title: Scrapping news about difference cryptocurrency from coinmarketcap.com
 
 Usage/Example:
+
 from coinmarketcap_scrapper import coinmarketcap
 
 scrapper = coinmarketcap.Scrapper()
+
 news = scrapper.get_news_of_cryptocurrency(cryptocurrency_name="bitcoin", count_of_news=20)
 
 for i, new in enumerate(news, start=1):
